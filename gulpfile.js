@@ -2,6 +2,7 @@ var gulp = require('gulp');
 
 var validate = require('gulp-nice-package');
 var connect = require('gulp-connect');
+var open = require('gulp-open');
 
 var app = {
 	src: {
@@ -25,6 +26,11 @@ gulp.task('connect', function() {
 		port: 8080,
 		livereload: true
 	})
+	
+	gulp.src('app/index.html')
+	.pipe(open('', {url: "http://localhost:8080"}));
+	
+	
 });
 
 // Watch for changes

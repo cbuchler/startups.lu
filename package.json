@@ -2,6 +2,7 @@
   "devDependencies": {
     "gulp": "^3.8.9",
     "gulp-connect": "^2.0.6",
-    "gulp-nice-package": "0.0.2"
+    "gulp-nice-package": "0.0.2",
+    "gulp-open": "^0.3.0"
   }
 }
