@@ -5,6 +5,6 @@
 (function () {
     'use strict';
 
-    angular.module('app.core', [ /* no dependency yet */ ])
+    angular.module('app.core', [ ])
 
 })();

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="app" ng-strict-di>
+<html ng-app="app">
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 	<title>index</title>
@@ -8,15 +8,24 @@
 
 </head>
 <body>
-<h1>It works!</h1>
-<span class="label label-success">Awesome</span>
+<!-- DO NOT place the attribute ui-view to the body element -->
+<div ui-view></div>
 </body>
 
 <script src="assets/lib/jquery/dist/jquery.min.js"></script>
 <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="assets/lib/angular/angular.min.js"></script>
+<script src="assets/lib/angular/angular.js"></script>
+<script src="assets/lib/angular-resource/angular-resource.js"></script>
+<script src="assets/lib/angular-ui-router/release/angular-ui-router.min.js"></script>
 
 <script src="app/app.module.js"></script>
+<script src="app/app.routes.js"></script>
+
 <script src="app/core/core.module.js"></script>
+<script src="app/core/constants.js"></script>
+
+<script src="app/startup/startup.module.js"></script>
+<script src="app/startup/routes.js"></script>
+<script src="app/startup/startup.js"></script>
 
 </html>

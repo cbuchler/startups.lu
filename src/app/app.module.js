@@ -7,7 +7,10 @@
 
     angular.module('app', [
 
-        'app.core'
+        'app.startup',
+
+
+        'ui.router'
 
     ]);
 
