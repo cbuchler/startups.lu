@@ -1,3 +1,11 @@
+/* @TODO: use CSS compilator */
+/*
+Author: Annabelle Buffart @yoseihana
+Date: Novembre 2014
+Version: 0.1
+Update:
+*/
+
 .navbar-default {
   background-image: none;
   background-color: white;
@@ -5,10 +13,16 @@
   border-radius: 4px;
   box-shadow: none;
   margin-bottom: 0px;
+  background-color: #44475a;
+  border: 0px;
 }
 
-.container{
-  margin-top: 51px;
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand{
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+  color: #FF9600;
 }
 
 .content{
@@ -16,13 +30,15 @@
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
-  color: #282a36;
+  color: #FF9600;
+  background-color: transparent;
 }
 
 .intro{
   background-color: #44475a;
-  height: 450px;
+  height: 425px;
   padding: 100px;
+  margin-bottom: 50px;
 }
 
 h1{
@@ -59,6 +75,7 @@ h3{
 
 .panel-default>.panel-heading{
   background-color: #44475a;
+  border-radius: 0px;
 }
 
 .panel-title{
@@ -79,6 +96,7 @@ h3{
   border: none;
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   color: white;
+  border-radius: 0px;
 }
 
 .label{
