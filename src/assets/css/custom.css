@@ -1,0 +1,136 @@
+/* @TODO: use CSS compilator */
+/*
+Author: Annabelle Buffart @yoseihana
+Date: Novembre 2014
+Version: 0.1
+Update:
+*/
+
+.navbar-default {
+    background-image: none;
+    background-color: white;
+    border-bottom: 1px solid #f0f0f0;
+    border-radius: 4px;
+    box-shadow: none;
+    margin-bottom: 0px;
+    background-color: #44475a;
+    border: 0px;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #FF9600;
+}
+
+.content {
+    margin-bottom: 50px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #FF9600;
+    background-color: transparent;
+}
+
+.intro {
+    background-color: #44475a;
+    height: 425px;
+    padding: 100px;
+    margin-bottom: 50px;
+}
+
+section.container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: normal;
+    color: #FF9600;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: #f8f8f2;
+    font-weight: lighter;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+h3 {
+    text-align: center;
+    color: #FF9600;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 2px;
+}
+
+.panel {
+    border-radius: 0px;
+    color: #44475a;
+
+}
+
+.panel-default > .panel-heading {
+    background-color: #44475a;
+    border-radius: 0px;
+}
+
+.panel-title {
+    color: white;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.panel-footer {
+    background-color: white;
+    border-top: 0px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.panel-footer .btn {
+    background-color: #FF9600;
+    border: none;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: white;
+    border-radius: 0px;
+}
+
+.label {
+    font-size: 100%;
+}
+
+.goto {
+    text-align: center;
+}
+
+.goto .btn {
+    color: #FF9600;
+    border: 2px solid #FF9600;
+    border-radius: 0px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 1px;
+}
+
+footer {
+    background-color: #44475a;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    vertical-align: middle;
+    color: white;
+}
+
+footer a {
+    color: #FF9600;
+    font-family: 'Pacifico', cursive;
+}

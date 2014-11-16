@@ -14,7 +14,7 @@
                 // === Startup ===
                 .state('main.startup', {
                     url: '/startup',
-                    template: '<ul><li ng-repeat="startup in startupList" ng-bind="startup.name"></li></ul>',
+                    templateUrl: 'app/startup/list.html',
                     controller: function ($scope, startupList) {
 
                         $scope.startupList = startupList;
